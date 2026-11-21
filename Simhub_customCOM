@@ -1,0 +1,9 @@
+format([DataCorePlugin.GameData.NewData.Rpms], '0') + ';' +
+format([DataCorePlugin.GameData.NewData.SpeedKmh], '0') + ';' +
+format([DataCorePlugin.GameData.Gear], '0') + ';' +
+format([DataCorePlugin.GameData.NewData.MaxRpm], '0') + ';' +
+format([ATSRHubMain.Telemetry.RedlineData.SpecificRedlineValue], '0') + ';' +
+format(timespantoseconds([DataCorePlugin.GameData.SessionTimeLeft]), '0') + ';' +
+format([ATSRHubMain.Telemetry.Vehicle.PitLimiter], '0') + ';' +
+format([DataCorePlugin.CurrentDateTime], 'HH:mm') + ';' +
+format([DataCorePlugin.GameRunning], '0') + '\n'
